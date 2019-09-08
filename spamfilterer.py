@@ -107,7 +107,7 @@ class Ui(QtWidgets.QMainWindow):
     def genButtonPressed(self):
         cwd = os.getcwd()
         os.chdir(cwd + '/Documents/BTHOspam')
-        f = open("BTHOspam.xml", "a")
+        f = open("BTHOspam.xml", "w")
         print("""<?xml version='1.0' encoding='UTF-8'?>
         <feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
                 <title>Mail Filters</title>
