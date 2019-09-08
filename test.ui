@@ -243,7 +243,7 @@
    <string notr="true">background-color: rgb(80, 0, 0)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="testButton">
+   <widget class="QPushButton" name="genButton">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -596,7 +596,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Fraternities</string>
@@ -769,7 +769,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Sororities</string>
@@ -1139,7 +1139,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Men's Organizations</string>
@@ -1284,7 +1284,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Woman's Organizations</string>
@@ -1429,7 +1429,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Sports/Physical Activities</string>
@@ -1574,7 +1574,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Pre-Med/Healthcare</string>
@@ -1719,7 +1719,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Study Abroad</string>
@@ -1864,7 +1864,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Student Government Association</string>
@@ -2009,7 +2009,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>International Students</string>
@@ -2154,7 +2154,7 @@
      </font>
     </property>
     <property name="cursor">
-     <cursorShape>SizeHorCursor</cursorShape>
+     <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="text">
      <string>Participation in research</string>
