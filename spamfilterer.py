@@ -4,6 +4,7 @@ import sys
 import os
 import webbrowser
 
+
 filterSite = "https://mail.google.com/mail/u/#settings/filters"
 class Ui(QtWidgets.QMainWindow):
     def __init__(self):
@@ -105,6 +106,7 @@ class Ui(QtWidgets.QMainWindow):
             self.womsC = True
 
     def genButtonPressed(self):
+        self.didGen = True
         cwd = os.getcwd()
         os.chdir(cwd + '/Documents/BTHOspam')
         f = open("BTHOspam.xml", "w")
@@ -263,6 +265,7 @@ class Ui(QtWidgets.QMainWindow):
 
         print("""</feed>""",file = f)
         f.close()
+
 app = QtWidgets.QApplication(sys.argv)
 window = Ui()
 app.exec_()
