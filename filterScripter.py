@@ -1,4 +1,4 @@
-f = open("BTHOspam.xml", "a")
+f = open("BTHOspam.xml", "w")
 
 #areas of disreguard
 paidStudy = True
