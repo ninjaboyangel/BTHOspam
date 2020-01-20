@@ -1,0 +1,39 @@
+#videobackground .gradient {
+    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(180, 200, 5, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(180, 200, 5, 0.69) 100%);
+    background: linear-gradient(45deg, rgba(120, 15, 61, 0.6), rgba(0, 0, 0, .69) 100%);
+}
+
+#videobackground .view video {
+    top: 0!important;
+    left: 0!important;
+    transform: none!important;
+    height: 100vh!important;
+    overflow: hidden;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    width: auto;
+    height: auto;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+  
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
