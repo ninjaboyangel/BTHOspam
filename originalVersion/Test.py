@@ -1,0 +1,36 @@
+f = open("output.xml", "a")
+print("""<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001567904364398*5663355344375445804,z0000001567905931940*1773119942813426719</id>
+	<updated>2019-09-08T01:38:19Z</updated>
+	<author>
+		<name>Howdy Hack</name>
+		<email>bthospam@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001567904364398*5663355344375445804</id>
+		<updated>2019-09-08T01:38:19Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='from:iahmed@tamu.edu &quot;paid study&quot; OR &quot;participants needed&quot;'/>
+		<apps:property name='label' value='BTHO Spam'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001567905931940*1773119942813426719</id>
+		<updated>2019-09-08T01:38:19Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='from:iahmed@tamu.edu rush OR &quot;rush events&quot; OR sorority'/>
+		<apps:property name='label' value='BTHO Spam'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>""", file=f)
+f.close()
